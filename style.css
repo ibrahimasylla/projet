@@ -1,0 +1,49 @@
+
+body{
+background:url("image/paris.jpg");
+font-family: 'Slabo 27px', serif;
+}
+.loging-box{
+
+
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.loging-box:hover{
+box-shadow: 6px 6px 6px black;
+}
+
+form h1{
+	width: 150px;
+	color: black;
+	margin: 20px 0;
+	
+}
+
+form input{
+	padding-left:5px;
+width: 300px;
+background:none;
+border:none;
+font-size: 1.3rem;
+outline: none;
+color: white;
+border-bottom: 1px solid #2ecc71;
+}
+.button{
+width: 100%;
+background: none;
+font-size: 25px;
+border: none;
+color: white
+outline:none;
+border-bottom: 2px solid black
+}
+
+form i{
+
+	color: white;
+	font-size: 20px;
+}
